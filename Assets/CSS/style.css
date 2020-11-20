@@ -1,0 +1,246 @@
+body{
+    background-color: #00606F;
+    padding: 0 30px;
+    text-align: center;
+  }
+  
+  .h2, h2{
+      font-size: 26px;
+      font-family: 'Bangers', cursive;
+      color:  #00606F; 
+  }
+  
+  h3{
+      font-size: 20px;
+      font-family: 'Bangers', cursive;
+  }
+  h4
+  {
+      font-family: 'Bangers', cursive;
+      border: solid #FDB302 2px;
+      color: #00606F;
+  }
+  
+  p {
+    color: #fdb302;
+    font-size: 20pt;
+    font-family: 'Bangers', cursive;
+    }
+
+.logo{
+      height: 200px;
+      width: 200px;
+      -webkit-filter: grayscale(0) blur(0px);
+      transition: all 0.5s ease;
+    }
+  
+.logo:hover {
+    width: 150px; /* on affiche l'image au carré */
+    height: 150px;
+    border-radius: 50%;  /* on arrondit l'image */
+    -webkit-transform: rotate(360deg); /* rotation de l'image */
+    transform: rotate(360deg);
+    }     
+
+  #picture{
+      background-image: url(../Images/BannierePC.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 50vh;
+  } 
+  
+  .pHistorique{
+      font-family: 'Lato', sans-serif;
+      font-size: 14px;
+      color: #00606F;
+  }
+  
+  .encadreBeige{
+      background-color: #F2EDDB;
+      border-radius: 30px;
+      border: #00606F solid 1em;
+  
+      padding: 30px;
+  }
+  .encadreDotted{
+      border-radius: 30px;
+      border-style: dotted;
+      border-width: 3px;
+      border-color: #FDB302;
+      padding: 15px 30px;
+  }
+  
+  .fontBlue{
+      color: #00606F;
+  }
+  
+  .fontOrange{
+      color:#FDB302
+  }
+  
+  .fontBeige{
+      color:#F2EDDB
+  }
+  
+  .imageTendance{
+      size: 30px;
+  }
+  
+  /* CSS Will */
+  
+  .threeImages {
+      height: 200px;
+      width: 200px;
+      border-radius: 30px;
+  }
+  .bestsells {
+      background-color: #f2eddb;
+      border-radius: 30px;
+  }
+
+  .blueText {
+      color: #00606f;
+  }
+  .blueBorder {
+      border-style: solid;
+      border-radius: 30px;
+  }
+  
+  /* CSS Xtof */
+  #map
+  {
+      border-radius: 30px;
+  }
+  #ulFooter
+  {
+    border-radius: 30px;
+    border-color: white;
+      border-style: solid;
+  
+  }
+  
+  /* CSS Page Xtof */
+  #guidContainer1
+  {
+      background-image: url(../Images/BannierePC2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 30px;
+
+  }
+  .introGuid
+  {
+      color: #fdb302;
+      font-size: 30pt;
+      font-family: 'Bangers', cursive;
+  }
+  #blocBlancP1
+  {
+      width: 60vw;
+      opacity:50%;
+      border-radius: 30px;
+  }
+  .whiteText
+  {
+      color: white;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-family: 'Lato', sans-serif;
+      font-size: 1em;
+  }
+  .baselineGuid
+  {
+      font-weight: 600;
+      color: #fdb302;
+      font-size: 1.3em;
+  }
+  .baselineGuid:hover
+  {
+      color: white;
+  }
+  .arrows
+  {
+      color: teal;
+  }
+  
+  .carousel-indicators{
+      fill: #00606F;
+  }
+  
+  /* Page Actu Will */
+  .logo {
+      width: 200px;
+      height: 200px;
+  }
+  #ulFooter
+  {
+    border-radius: 30px;
+    border-color: white;
+      border-style: solid;
+  }
+  .actuTitle {
+      background-color: #F2EDDB;
+      border-radius: 30px;
+      color: #00606f;
+      font-size: 26px;
+      font-family: 'Bangers', cursive;
+  }
+  #carouselExampleCaptions, #carouselExampleCaptions2, #carouselExampleCaptions3  {
+      width: 75%;
+  }
+  .carousel-item {
+      height: auto;
+  }
+  .carouselTitle {
+  color :#FDB302;
+  font-size: 26px;
+  font-family: 'Bangers', cursive;
+  }
+  .carouselDesc {
+      color :#FDB302;
+      font-size: 20px;
+      font-family: 'Bangers', cursive;
+  }
+  .carousel-caption {
+  background-color: rgba(0,0,0,0.5)
+  }
+  
+  /* Style Fabien  */
+  .beige
+  {
+      background-color: #F2EDDB;
+  }
+  .containerNav
+  {
+      background-color: #00606F;
+  }
+  .Bangers
+  {
+      font-family: 'Bangers', cursive;
+  }
+  
+  .card-text
+  {
+      background-color:  #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .titre
+  {
+    border-radius: 30px;
+}
+  .carousel-item
+  {
+   height: 500px;
+   background-size: cover;
+  }
+  #ulFooter
+  {
+      background-color:#00606F ;
+      border-radius: 15px;
+      border-color: white;
+      border-style: solid;
+  }
+
+  .buttonMargin{
+      margin-bottom: 60px;
+  }
